@@ -7,83 +7,12 @@
     section.services {
       .services-cards {
         grid-template-columns: repeat(3, calc(100% / 3 - 2rem));
-        .card {
-          .card--icon {
-          }
-        }
       }
     }
     // latest blogs section
     .latest-blog {
-      img {
-      }
       &--grid {
         grid-template-columns: 68% 30%;
-        .blog-item {
-          &.blog-item--1 {
-          }
-          &.blog-item--2 {
-          }
-          &.blog-item--3 {
-          }
-          &.blog-item--4 {
-          }
-          &.blog-item--left {
-          }
-          &.blog-item--right {
-          }
-
-          .blog-item--image {
-            img {
-            }
-          }
-          .blog-item--user {
-            .user--name {
-            }
-            .user-image {
-              img {
-              }
-            }
-            .user--info {
-            }
-            .user-social {
-            }
-            .social-media {
-              &--icon {
-              }
-            }
-          }
-          .bolg-item--details {
-            .user {
-              &-icon {
-              }
-            }
-            .date {
-            }
-          }
-          .blog-item--title {
-          }
-          .blog-item--text {
-          }
-          .blog-item--posts {
-            h4:after {
-            }
-            .post {
-              &-image {
-                img {
-                }
-              }
-              &-title {
-              }
-            }
-            .cta {
-              .link {
-                a {
-                }
-              }
-            }
-          }
-        }
       }
     }
 
@@ -91,17 +20,6 @@
     .contact {
       .message {
         padding-inline: 1.5rem;
-        span {
-          &:nth-of-type(1) {
-          }
-
-          &:nth-of-type(2) {
-          }
-          &.email {
-            a {
-            }
-          }
-        }
       }
     }
   }
@@ -122,8 +40,6 @@
     font-size: 1.4rem;
   }
 
-  p {
-  }
   .open {
     display: flex !important;
   }
@@ -174,11 +90,6 @@
           opacity: 0.6;
         }
       }
-
-      .logo {
-        .fa-circle {
-        }
-      }
     }
   }
   // Header Style
@@ -193,8 +104,6 @@
           width: 100%;
         }
 
-        .blog-title {
-        }
         .description {
           font-size: 1.6rem;
         }
@@ -203,30 +112,18 @@
   }
   // 3- Sections containers
   .section-container {
-    .section-subtitle {
-    }
-
     .section-text {
       width: 90%;
-
-      &::after {
-      }
     }
   }
   .main {
     section.services {
       .services-cards {
         grid-template-columns: repeat(1, calc(100%));
-        .card {
-          .card--icon {
-          }
-        }
       }
     }
     // latest blogs section
     .latest-blog {
-      img {
-      }
       &--grid {
         grid-template-columns: 100%;
         grid-template-rows: repeat(8, minmax(max-content, 1fr));
@@ -234,94 +131,34 @@
         grid-row-gap: 1%;
 
         .blog-item {
-          &.blog-item--1 {
-          }
           &.blog-item--2 {
             grid-row: 8/8;
             grid-column: 1;
           }
-          &.blog-item--3 {
-          }
+
           &.blog-item--4 {
             grid-row: 5/8;
             grid-column: 1;
           }
-          &.blog-item--left {
-          }
-          &.blog-item--right {
-          }
 
-          .blog-item--image {
-            img {
-            }
-          }
           .blog-item--user {
-            .user--name {
-            }
             .user-image {
               flex: 0 0 100%;
-              img {
-              }
             }
             .user--info {
               flex: 0 0 100%;
             }
-            .user-social {
-            }
-            .social-media {
-              &--icon {
-              }
-            }
           }
-          .bolg-item--details {
-            .user {
-              &-icon {
-              }
-            }
-            .date {
-            }
-          }
-          .blog-item--title {
-          }
-          .blog-item--text {
-          }
+
           .blog-item--posts {
-            h4:after {
-            }
             .post {
               flex: 0 0 100%;
               justify-content: flex-start;
               justify-self: flex-start;
-              &-image {
-                img {
-                }
-              }
+
               &-title {
                 text-align: left;
               }
-            }
-            .cta {
-              .link {
-                a {
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-
-    // contact section
-    .contact {
-      .message {
-        span {
-          &:nth-of-type(1) {
-          }
-
-          &:nth-of-type(2) {
-          }
-          &.email {
-            a {
             }
           }
         }
@@ -337,10 +174,6 @@
     &.single {
       .latest-blog--grid {
         grid-template-rows: 100%;
-      }
-      .latest-blog--grid .blog-item {
-        .blog-item--image {
-        }
       }
     }
   }

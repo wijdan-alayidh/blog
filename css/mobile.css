@@ -77,6 +77,7 @@ nav .nav .fa-times {
 nav .nav .fa-times:hover {
     opacity: 0.6;
   }
+
   header.header {
     grid-template-rows: 90vh;
   }
@@ -92,6 +93,7 @@ header.header .containter .description {
   .section-container .section-text {
     width: 90%;
   }
+
   .main section.services .services-cards {
     grid-template-columns: repeat(1, calc(100%));
   }
@@ -123,6 +125,7 @@ header.header .containter .description {
   .main .latest-blog--grid .blog-item .blog-item--posts .post-title {
     text-align: left;
   }
+
   main.latest-blog--page .latest-blog--grid {
     grid-template-rows: repeat(4, minmax(max-content, 1fr));
   }
