@@ -1,0 +1,13 @@
+.footer {
+  padding-block: 10rem;
+}
+.footer .main-menu,
+.footer .social-media {
+  justify-content: center;
+}
+.footer .social-media {
+  margin-block-start: 3rem;
+}
+.footer .social-media .social-media--icon {
+  margin-inline-end: 3rem;
+}

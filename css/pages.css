@@ -1,0 +1,9 @@
+main.latest-blog--page .latest-blog--grid {
+  grid-template-columns: 100%;
+}
+main.latest-blog--page.single .latest-blog--grid .blog-item {
+  background-color: transparent;
+}
+main.latest-blog--page.single .latest-blog--grid .blog-item .blog-item--image {
+  height: 400px;
+}

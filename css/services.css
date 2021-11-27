@@ -1,0 +1,24 @@
+.main section.services .services-cards {
+  display: grid;
+  grid-template-columns: repeat(3, calc(100% / 3 - 10rem));
+  grid-template-rows: repeat(2, max-content);
+  grid-gap: 3rem;
+  justify-content: center;
+}
+.main section.services .services-cards .card {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  text-align: left;
+  background-color: var(--gray-light);
+  padding-inline: 3rem;
+  padding-block: 4rem;
+  row-gap: 1.5rem;
+  border-radius: 0.8rem;
+}
+.main section.services .services-cards .card .card--icon {
+  color: var(--orange);
+  flex: 0 0 100%;
+  font-size: 2.8rem;
+  font-weight: 100;
+}

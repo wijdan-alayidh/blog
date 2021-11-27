@@ -1,0 +1,26 @@
+.main .contact .message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--gray-light);
+  border-radius: 0.8rem;
+  flex-flow: row wrap;
+  height: 150px;
+  row-gap: 15px;
+  text-transform: capitalize;
+}
+.main .contact .message span {
+  flex: 0 0 100%;
+}
+.main .contact .message span:nth-of-type(1) {
+  align-self: flex-end;
+}
+.main .contact .message span:nth-of-type(2) {
+  align-self: flex-start;
+}
+.main .contact .message span.email {
+  flex: 0 0 100%;
+}
+.main .contact .message span.email a {
+  color: white;
+}

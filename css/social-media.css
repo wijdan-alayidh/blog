@@ -1,0 +1,13 @@
+.social-media {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.social-media--icon {
+  font-size: 1.6rem;
+  border: 1px solid var(--orange);
+  padding-inline: 1.3rem;
+  padding-block: 1rem;
+  margin-inline-end: 1rem;
+  border-radius: 50%;
+}
